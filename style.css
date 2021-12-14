@@ -138,9 +138,10 @@ padding: 20px;
 	cursor: pointer;
 	border: 1px solid #960c0c;
 	border-radius: 15px;
-	text-align: center;
-
+text-align: center;
 	padding: 20px;
+	transition: 1.0s;
+
 
 
 }
@@ -157,6 +158,9 @@ padding: 20px;
 	border-radius: 15px;
 	padding: 20px;
 	text-align: center;
+	transition: 1.0s;
+
+
 
 
 }
@@ -173,6 +177,9 @@ padding: 20px;
 	border-radius: 15px;
 	padding: 20px;
 	text-align: center;
+	transition: 1.0s;
+
+
 
 }
 
@@ -190,7 +197,7 @@ footer
 h2
 {
 	color: black;
-	font-size: larger;
+	font-size: x-large;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -223,6 +230,56 @@ main a:hover {
 	color: black;
 }
 
+main .div1:hover {
+	box-shadow: 0 5px 50px 0 #960c0c inset ,0 5px 50px 0  #960c0c,
+    0 5px 50px 0 #960c0c inset ,0 5px 50px 0 #960c0c;
+    text-shadow:  0 5px 50px 0 #960c0c inset ,0 5px 50px 0 #960c0c;
+}
+
+main .div2:hover {
+	box-shadow: 0 5px 50px 0 #960c0c inset ,0 5px 50px 0  #960c0c,
+    0 5px 50px 0 #960c0c inset ,0 5px 50px 0 #960c0c;
+    text-shadow:  0 5px 50px 0 #960c0c inset ,0 5px 50px 0 #960c0c;
+}
+
+main .div3:hover {
+	box-shadow: 0 5px 50px 0 #960c0c inset ,0 5px 50px 0  #960c0c,
+    0 5px 50px 0 #960c0c inset ,0 5px 50px 0 #960c0c;
+    text-shadow:  0 5px 50px 0 #960c0c inset ,0 5px 50px 0 #960c0c;
+}
+
+.right
+{
+	width: 40%;
+	height: 80%;
+	float: right;
+}
+
+.right img
+{
+	width: 80%;
+	height: 100%;
+}
+
+.left
+{
+	width: 55%;
+	height: 80%;
+	float: left;
+}
+
+.left h2
+{
+	color: #9e0d0d;
+	font-size: x-large;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 15px;
+	margin-top: 30px;
+	
+}
+}
 /*responsive*/
 
 @media (max-width:600px) {
