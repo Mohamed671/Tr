@@ -100,8 +100,6 @@ header
 }
 .welcome-text a:hover {
 	background: #960c0c;
-
-
 }
 .fix
 {
@@ -132,7 +130,7 @@ padding: 20px;
 
 .div1
 {
-	width: 25%;
+	width: 22%;
 	height: 80%;
 	float: left;
 	margin-right: 5%;
@@ -140,13 +138,15 @@ padding: 20px;
 	cursor: pointer;
 	border: 1px solid #960c0c;
 	border-radius: 15px;
+
+	padding: 20px;
 
 
 }
 
 .div2
 {
-	width: 25%;
+	width: 22%;
 	height: 80%;
 	float: left;
 	margin-right: 5%;
@@ -154,12 +154,14 @@ padding: 20px;
 	cursor: pointer;
 	border: 1px solid #960c0c;
 	border-radius: 15px;
+	padding: 20px;
+
 
 }
 
 .div3
 {
-	width: 25%;
+	width: 22%;
 	height: 80%;
 	float: left;
 	margin-right: 5%;
@@ -167,6 +169,8 @@ padding: 20px;
 	cursor: pointer;
 	border: 1px solid #960c0c;
 	border-radius: 15px;
+	padding: 20px;
+
 }
 
 footer
@@ -183,11 +187,11 @@ footer
 h2
 {
 	color: black;
-	font-size: large;
+	font-size: larger;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	padding: 20px;
+	padding: 15px;
 	
 }
 
@@ -207,13 +211,14 @@ main a
 	display: inline-block;
 	color: #9e0d0d;
 	border-radius: 15px;
-margin-right: auto;
-margin-left: auto;
-float: none;
+	transition: 1.0s;
 }
 
 
-
+main a:hover {
+	background: #960c0c;
+	color: black;
+}
 
 /*responsive*/
 
