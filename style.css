@@ -138,6 +138,7 @@ padding: 20px;
 	cursor: pointer;
 	border: 1px solid #960c0c;
 	border-radius: 15px;
+	text-align: center;
 
 	padding: 20px;
 
@@ -155,6 +156,7 @@ padding: 20px;
 	border: 1px solid #960c0c;
 	border-radius: 15px;
 	padding: 20px;
+	text-align: center;
 
 
 }
@@ -170,6 +172,7 @@ padding: 20px;
 	border: 1px solid #960c0c;
 	border-radius: 15px;
 	padding: 20px;
+	text-align: center;
 
 }
 
