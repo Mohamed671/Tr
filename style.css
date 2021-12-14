@@ -119,8 +119,8 @@ main
 }
 main .elements
 {
-	width: 90%;
-	height: 80%;
+	width: 100vw;
+	height: 100vh;
 	
 	background-color: grey;
 	
